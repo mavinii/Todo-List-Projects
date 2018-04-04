@@ -1,6 +1,11 @@
+/*container principal*/
 #container{
-	background-color: gray;
-	text-align: center;
 	width: 360px;
-	margin: 100px auto;
+	margin: 0px auto;
+	border: 2px solid gray;
+}
+/*liga e desliga no js*/
+.completed{
+	color: gray;
+	text-decoration: line-through;
 }
