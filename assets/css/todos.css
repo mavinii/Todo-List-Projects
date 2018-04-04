@@ -1,3 +1,6 @@
-body{
-	background-color: purple;
+#container{
+	background-color: gray;
+	text-align: center;
+	width: 360px;
+	margin: 100px auto;
 }
