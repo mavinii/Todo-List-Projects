@@ -18,6 +18,11 @@ $("input[type='text']").keypress(function(event){
 		var todoText = $(this).val();
 		$(this).val("");
 		// create a new li and to ul
-		$("ul").append("<li><span>X</span> " + todoText + "</li>")
+		$("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>")
 	}
+});
+
+//button plus obs> classe usamos ".", para div "#"
+$(".fa-plus").click(function(){
+	$("input").fadeToggle();
 });
